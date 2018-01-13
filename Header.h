@@ -1,1 +1,1 @@
-int vezys = 2;
+int veziai = 2;

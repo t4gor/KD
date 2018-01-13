@@ -14,13 +14,13 @@ is private and is only called by this Instance function.
 
 Singleton* Singleton::Instance()
 {
-	if (!Singleton::m_pInstance)   // Only allow one instance of class to be generated.
-		Singleton::m_pInstance = new Singleton;
+	if (!Singleton::p_pInstance)   // Only allow one instance of class to be generated.
+		Singleton::p_pInstance = new Singleton.h;
 
-	return Singleton::m_pInstance;
+	return Singleton::p_pInstance;
 }
 
-void Singleton::writeToLogFile()
+void Singleton::writeToLogFiles(0)
 {
 	cout << "Hello Singleton world" << endl;
 }
